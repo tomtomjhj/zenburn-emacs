@@ -227,7 +227,7 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; isearch
    `(isearch ((t (:foreground ,zenburn-yellow-2 :weight bold :background ,zenburn-bg+2))))
    `(isearch-fail ((t (:foreground ,zenburn-fg :background ,zenburn-red-4))))
-   `(lazy-highlight ((t (:foreground ,zenburn-yellow-2 :weight bold :background ,zenburn-bg-05))))
+   `(lazy-highlight ((t (:foreground ,zenburn-bg :weight bold :background ,"#d0d0d0"))))
 
    `(menu ((t (:foreground ,zenburn-fg :background ,zenburn-bg))))
    `(minibuffer-prompt ((t (:foreground ,zenburn-yellow))))
@@ -241,7 +241,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,zenburn-green-2
                       :background ,zenburn-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,zenburn-bg-1 :extend t))
+   `(region ((,class (:background ,"#44475A" :extend t))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,zenburn-bg+2))))
    `(trailing-whitespace ((t (:background ,zenburn-red))))
